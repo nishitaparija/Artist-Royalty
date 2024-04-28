@@ -1,0 +1,18 @@
+dotenv: .env
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.8.2
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.8.2"
+networks:
+  ripple-evm-sidechain:
+    verify: False
+  development:
+    verify: False
+  ganache-local:
+    verify: False
+  ganache:
+    verify: False
+wallets:
+  from_key: ${PRIVATE_KEY}

@@ -1,0 +1,8 @@
+live:
+- name: Ripple
+  networks:
+  - chainid: 1440001
+    explorer: https://evm-sidechain.xrpl.org
+    host: https://rpc-evm-sidechain.xrpl.org/
+    id: ripple-evm-sidechain
+    name: Ripple's EVM Sidechain
